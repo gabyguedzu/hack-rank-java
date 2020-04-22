@@ -1,4 +1,4 @@
 ### Simple Array Sum
 
 
-![](/exer1.png)
+![](/simple-array-sum/exer1.png)
