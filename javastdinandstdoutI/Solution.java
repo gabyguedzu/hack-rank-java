@@ -8,21 +8,12 @@ public class Solution {
 
     public static void main(String[] args) {
         final Scanner s = new Scanner(new BufferedReader(new InputStreamReader(System.in)));
-        final int t = s.nextInt();
+        int t = s.nextInt();
+        int t1 = s.nextInt();
+        int t2 = s.nextInt();
 
-        for (int ti = 1; ti <= t; ti++) {
-            final int n = s.nextInt();
-            final int k = s.nextInt();
-
-            final long[] arr = new long[n];
-
-            for (int i = 0; i < n; i++) {
-                arr[i] = s.nextLong();
-            }
-
-            for(int j = 0; j<arr.length; j++) {
-                System.out.println(arr[j]);
-            }
-        }
+        System.out.println(t);
+        System.out.println(t1);
+        System.out.println(t2);
     }
 }
